@@ -4,7 +4,6 @@ import { interval, Observable } from 'rxjs';
 @Component({
   selector: 'app-observables',
   templateUrl: './observables.component.html',
-  styleUrls: ['./observables.component.scss']
 })
 export class ObservablesComponent implements OnInit{
 
