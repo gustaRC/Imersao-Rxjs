@@ -12,6 +12,9 @@ import { IntervalComponent } from './components/operadores-criacao/interval/inte
 import { TimerComponent } from './components/operadores-criacao/timer/timer.component';
 import { ThrowErrorComponent } from './components/operadores-criacao/throw-error/throw-error.component';
 import { AjaxComponent } from './components/operadores-criacao/ajax/ajax.component';
+import { ForkJoinComponent } from './components/operadores-criacao-juncao/fork-join/fork-join.component';
+import { HttpClientModule } from '@angular/common/http';
+import { ZipComponent } from './components/operadores-criacao-juncao/zip/zip.component'
 
 @NgModule({
   declarations: [
@@ -24,11 +27,14 @@ import { AjaxComponent } from './components/operadores-criacao/ajax/ajax.compone
     IntervalComponent,
     TimerComponent,
     ThrowErrorComponent,
-    AjaxComponent
+    AjaxComponent,
+    ForkJoinComponent,
+    ZipComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
