@@ -16,8 +16,6 @@ export class FilterComponent implements OnInit{
     this.operatorFilter();
   }
 
-
-
   operatorFilter() {
     const requisicaoArray$ = from([
       { "id": 1, "name": "Teste1", "email": "teste1@gmail.com"},
