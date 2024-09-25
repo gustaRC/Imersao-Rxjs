@@ -29,7 +29,8 @@ import { SkipComponent } from './components/operadores-filtragem/skip/skip.compo
 import { DebounceTimeComponent } from './components/operadores-filtragem/debounce-time/debounce-time.component';
 import { SwitchAllComponent } from './components/operadores-juncao/switch-all/switch-all.component';
 import { StartWithComponent } from './components/operadores-juncao/start-with/start-with.component';
-import { CombineLatestComponent } from './components/operadores-juncao/combine-latest/combine-latest.component'
+import { CombineLatestComponent } from './components/operadores-juncao/combine-latest/combine-latest.component';
+import { WithLatestFromComponent } from './components/operadores-juncao/with-latest-from/with-latest-from.component'
 
 @NgModule({
   declarations: [
@@ -60,6 +61,7 @@ import { CombineLatestComponent } from './components/operadores-juncao/combine-l
     SwitchAllComponent,
     StartWithComponent,
     CombineLatestComponent,
+    WithLatestFromComponent,
   ],
   imports: [
     BrowserModule,
