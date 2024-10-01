@@ -30,7 +30,13 @@ import { DebounceTimeComponent } from './components/operadores-filtragem/debounc
 import { SwitchAllComponent } from './components/operadores-juncao/switch-all/switch-all.component';
 import { StartWithComponent } from './components/operadores-juncao/start-with/start-with.component';
 import { CombineLatestComponent } from './components/operadores-juncao/combine-latest/combine-latest.component';
-import { WithLatestFromComponent } from './components/operadores-juncao/with-latest-from/with-latest-from.component'
+import { WithLatestFromComponent } from './components/operadores-juncao/with-latest-from/with-latest-from.component';
+import { ShareReplayComponent } from './components/operadores-multicasting/share-replay/share-replay.component';
+import { ShareComponent } from './components/operadores-multicasting/share/share.component';
+import { CatchErrorComponent } from './components/operadores-tratamentos-erros/catch-error/catch-error.component';
+import { RetryComponent } from './components/operadores-tratamentos-erros/retry/retry.component';
+import { RetryWhenComponent } from './components/operadores-tratamentos-erros/retry-when/retry-when.component';
+import { TapComponent } from './components/operadores-utilitarios/tap/tap.component'
 
 @NgModule({
   declarations: [
@@ -62,6 +68,12 @@ import { WithLatestFromComponent } from './components/operadores-juncao/with-lat
     StartWithComponent,
     CombineLatestComponent,
     WithLatestFromComponent,
+    ShareReplayComponent,
+    ShareComponent,
+    CatchErrorComponent,
+    RetryComponent,
+    RetryWhenComponent,
+    TapComponent,
   ],
   imports: [
     BrowserModule,
