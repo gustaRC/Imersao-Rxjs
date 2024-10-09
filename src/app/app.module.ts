@@ -36,7 +36,13 @@ import { ShareComponent } from './components/operadores-multicasting/share/share
 import { CatchErrorComponent } from './components/operadores-tratamentos-erros/catch-error/catch-error.component';
 import { RetryComponent } from './components/operadores-tratamentos-erros/retry/retry.component';
 import { RetryWhenComponent } from './components/operadores-tratamentos-erros/retry-when/retry-when.component';
-import { TapComponent } from './components/operadores-utilitarios/tap/tap.component'
+import { TapComponent } from './components/operadores-utilitarios/tap/tap.component';
+import { DelayComponent } from './components/operadores-utilitarios/delay/delay.component';
+import { TimeoutComponent } from './components/operadores-utilitarios/timeout/timeout.component';
+import { EveryComponent } from './components/operadores-condicionais-booleanos/every/every.component';
+import { FindComponent } from './components/operadores-condicionais-booleanos/find/find.component';
+import { FindIndexComponent } from './components/operadores-condicionais-booleanos/find-index/find-index.component';
+import { IsEmptyComponent } from './components/operadores-condicionais-booleanos/is-empty/is-empty.component'
 
 @NgModule({
   declarations: [
@@ -74,6 +80,12 @@ import { TapComponent } from './components/operadores-utilitarios/tap/tap.compon
     RetryComponent,
     RetryWhenComponent,
     TapComponent,
+    DelayComponent,
+    TimeoutComponent,
+    EveryComponent,
+    FindComponent,
+    FindIndexComponent,
+    IsEmptyComponent,
   ],
   imports: [
     BrowserModule,
